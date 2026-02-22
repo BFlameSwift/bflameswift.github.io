@@ -45,10 +45,10 @@ I am currently a Research Intern at Microsoft Research Asia (GenAI Group), worki
 {: #news }
 
 <ul class="news-list">
-  <li><span class="news-date">2025.10:</span> 🎉 Joined MSRA GenAI Group as a Research Intern.</li>
-  <li><span class="news-date">2025.09:</span> 🎉🎉 <code>Uni-MuMER</code> was accepted by <strong>NeurIPS 2025 (CCF-A, Spotlight)</strong>.</li>
+  <li><span class="news-date">2025.10:</span> 🎉 Joined <img src="/images/icon-msra.svg" class="news-logo" alt="MSRA">MSRA GenAI Group as a Research Intern.</li>
+  <li><span class="news-date">2025.09:</span> 🎉🎉 <code>Uni-MuMER</code> was accepted by <img src="/images/icon-neurips.svg" class="news-logo" alt="NeurIPS"><strong>NeurIPS 2025 (CCF-A, Spotlight)</strong>.</li>
   <li><span class="news-date">2025.05:</span> 🎉 Released open-source datasets, checkpoints, and code for <code>Uni-MuMER</code>.</li>
-  <li><span class="news-date">2025.01:</span> 🎉🎉 <code>TAMER</code> was accepted by <strong>AAAI 2025 (CCF-A)</strong>.</li>
+  <li><span class="news-date">2025.01:</span> 🎉🎉 <code>TAMER</code> was accepted by <img src="/images/icon-aaai.svg" class="news-logo" alt="AAAI"><strong>AAAI 2025 (CCF-A)</strong>.</li>
 </ul>
 
 ## 🎓 Education
@@ -103,7 +103,7 @@ I am currently a Research Intern at Microsoft Research Asia (GenAI Group), worki
 <div class="paper-entry">
   <a class="paper-title-link" href="https://github.com/BFlameSwift/Uni-MuMER" target="_blank" rel="noopener">Uni-MuMER: Unified Multi-Task Fine-Tuning of Vision-Language Model for Handwritten Mathematical Expression Recognition</a><br>
   <span><strong>Yu Li</strong><sup>*</sup>, Jin Jiang<sup>*</sup>, <a href="https://qingzhenduyu.github.io/" target="_blank" rel="noopener">Jianhua Zhu</a>, Shuai Peng, Baole Wei, Yuxuan Zhou, <a href="https://scholar.google.com/citations?user=6Ia92WsAAAAJ" target="_blank" rel="noopener">Liangcai Gao</a><sup>#</sup></span><br>
-  <span class="venue-tag"><strong>NeurIPS 2025 (CCF-A, Spotlight)</strong></span>
+  <span class="venue-tag"><img src="/images/icon-neurips.svg" class="venue-logo" alt="NeurIPS"><strong>NeurIPS 2025 (CCF-A, Spotlight)</strong></span>
   <div class="paper-badges">
     <a href="https://github.com/BFlameSwift/Uni-MuMER" target="_blank" rel="noopener"><img alt="GitHub Repo" src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github&logoColor=white"></a>
     <a href="https://github.com/BFlameSwift/Uni-MuMER/stargazers" target="_blank" rel="noopener"><img alt="GitHub stars" src="https://img.shields.io/github/stars/BFlameSwift/Uni-MuMER?style=social"></a>
@@ -113,7 +113,7 @@ I am currently a Research Intern at Microsoft Research Asia (GenAI Group), worki
 <div class="paper-entry">
   <a class="paper-title-link" href="https://github.com/qingzhenduyu/TAMER" target="_blank" rel="noopener">TAMER: Tree-Aware Transformer for Handwritten Mathematical Expression Recognition</a><br>
   <span><a href="https://qingzhenduyu.github.io/" target="_blank" rel="noopener">Jianhua Zhu</a>, Wenqi Zhao, <strong>Yu Li</strong>, Xingjian Hu, <a href="https://scholar.google.com/citations?user=6Ia92WsAAAAJ" target="_blank" rel="noopener">Liangcai Gao</a><sup>#</sup></span><br>
-  <span class="venue-tag"><strong>AAAI 2025 (CCF-A)</strong></span>
+  <span class="venue-tag"><img src="/images/icon-aaai.svg" class="venue-logo" alt="AAAI"><strong>AAAI 2025 (CCF-A)</strong></span>
   <div class="paper-badges">
     <a href="https://github.com/qingzhenduyu/TAMER" target="_blank" rel="noopener"><img alt="GitHub Repo" src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github&logoColor=white"></a>
     <a href="https://github.com/qingzhenduyu/TAMER/stargazers" target="_blank" rel="noopener"><img alt="GitHub stars" src="https://img.shields.io/github/stars/qingzhenduyu/TAMER?style=social"></a>
