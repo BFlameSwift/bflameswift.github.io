@@ -1,56 +1,141 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Yu Li"
 author_profile: true
-redirect_from: 
+classes: wide
+redirect_from:
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+<!-- # Yu Li
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+- Location: Beijing, China
+- Email: [liyu@stu.pku.edu.cn](mailto:liyu@stu.pku.edu.cn)
+- Google Scholar: [dxkSAiwAAAAJ](https://scholar.google.com/citations?user=dxkSAiwAAAAJ&hl=zh-CN)
+- GitHub: [BFlameSwift](https://github.com/BFlameSwift) -->
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+## 👨‍💻 About me
+{: #about }
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+I am an M.S. student in Intelligent Science and Technology at Peking University, advised by Prof. Liangcai Gao. My research focuses on handwritten mathematical expression recognition and multimodal reasoning with vision-language models. I am also working on long-context language modeling at Microsoft Research Asia.
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+### 🔬 Research Interests
+- Handwritten Mathematical Expression Recognition (HMER)
+- Vision-Language Models and Multimodal Reasoning
+- Long-Context LLMs and Efficient Memory Mechanisms
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+## 📰 News
+{: #news }
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+- Oct 2025: Started as a Research Intern at MSRA GenAI Group.
+- Sep 2025: `Uni-MuMER` was accepted to NeurIPS 2025 as a Spotlight paper.
+- May 2025: Open-sourced datasets, model checkpoints, and code for `Uni-MuMER`.
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+## 🎓 Education
+{: #education }
 
-**Markdown generator**
+- Sep 2024 - Jul 2027 (expected), M.S. in Intelligent Science and Technology, Peking University
+- Sep 2019 - Jun 2023, B.Eng. in Software Engineering, Beihang University (GPA: 3.68/4.00)
+- Sep 2020 - Jun 2023, Dual Degree in Mathematics and Applied Mathematics, Beihang University
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+## 💼 Research Experiences
+{: #experiences }
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+### 🧪 Research Internship
+- Oct 2025 - Present, Research Intern, MSRA GenAI Group
+- Working on long-context modeling with compressed-memory mechanisms for LLMs.
+- Exploring training and inference strategies to extend effective context windows under fixed compute budgets.
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+<!--
+## 🏅 Honors & Awards
+{: #honors-awards }
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+### 🎖️ Scholarships
+- Nov 2022, Second-Class Academic Scholarship, Beihang University
+
+### 🧠 Competitions
+- Aug 2025, 4th Place, Kingsoft Office Multimodal Document Parsing Competition
+- Jul 2024, 4th Place, ICPR 2024 Multi-Line Mathematical Expression Recognition Competition
+- Nov 2022, First Prize, National College Mathematics Competition
+- Sep 2024, 2nd Place, 1500m Race, Peking University Autumn Sports Meeting
+-->
+
+## 📚 Selected Publications
+{: #selected-publications }
+
+<span style="font-size: 0.9em;">`#` for equal contributions, `*` for corresponding author.</span>
+
+<div class="paper-entry">
+  <a class="paper-title-link" href="https://github.com/BFlameSwift/Uni-MuMER" target="_blank" rel="noopener">Uni-MuMER: Unified Multi-Task Fine-Tuning of Vision-Language Model for Handwritten Mathematical Expression Recognition</a><br>
+  <span><strong>Yu Li</strong><sup>#</sup>, Jin Jiang<sup>#</sup>, Jianhua Zhu, Shuai Peng, Baole Wei, Yuxuan Zhou, Liangcai Gao<sup>*</sup></span><br>
+  <span class="venue-tag"><strong>NeurIPS 2025 (CCF-A, Spotlight)</strong></span>
+  <div class="paper-badges">
+    <a href="https://github.com/BFlameSwift/Uni-MuMER" target="_blank" rel="noopener"><img alt="GitHub Repo" src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github&logoColor=white"></a>
+    <a href="https://github.com/BFlameSwift/Uni-MuMER/stargazers" target="_blank" rel="noopener"><img alt="GitHub stars" src="https://img.shields.io/github/stars/BFlameSwift/Uni-MuMER?style=social"></a>
+  </div>
+</div>
+
+<div class="paper-entry">
+  <a class="paper-title-link" href="https://github.com/qingzhenduyu/TAMER" target="_blank" rel="noopener">TAMER: Tree-Aware Transformer for Handwritten Mathematical Expression Recognition</a><br>
+  <span>Jianhua Zhu, Wenqi Zhao, <strong>Yu Li</strong>, Xingjian Hu, Liangcai Gao</span><br>
+  <span class="venue-tag"><strong>AAAI 2025 (CCF-A)</strong></span>
+  <div class="paper-badges">
+    <a href="https://github.com/qingzhenduyu/TAMER" target="_blank" rel="noopener"><img alt="GitHub Repo" src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github&logoColor=white"></a>
+    <a href="https://github.com/qingzhenduyu/TAMER/stargazers" target="_blank" rel="noopener"><img alt="GitHub stars" src="https://img.shields.io/github/stars/qingzhenduyu/TAMER?style=social"></a>
+  </div>
+</div>
+
+<!--
+## 🧾 Selected Preprints
+{: #selected-preprints }
+
+- Long-context LLM modeling with compressed memory (manuscript in internal review).
+
+## 🎤 Invited Talks
+{: #invited-talks }
+
+- No invited talks listed yet.
+-->
+
+## 🤝 Academic Services
+{: #academic-services }
+
+- Teaching Assistant, Discrete Mathematics (Spring 2021)
+- Teaching Assistant, Introduction to Computing B (Fall 2024)
+- Former Vice President, Beihang Marathon Association
+
+## 📬 Contact
+{: #contact }
+
+- Email: [liyu@stu.pku.edu.cn](mailto:liyu@stu.pku.edu.cn)
+- Google Scholar: [dxkSAiwAAAAJ](https://scholar.google.com/citations?user=dxkSAiwAAAAJ&hl=zh-CN)
+- GitHub: [BFlameSwift](https://github.com/BFlameSwift)
+
+<hr style="margin-top: 3em;">
+
+## 👀 Visitor Counter
+
+<div id="footer" style="text-align: center; font-size: 0.9em; color: #666;">
+  <div id="footer-text"></div>
+
+  &copy; 2026 Yu Li<br><br>
+
+  <span style="color: #888;">
+    Total Views: <span id="busuanzi_value_site_pv"></span> |
+    Unique Visitors: <span id="busuanzi_value_site_uv"></span>
+  </span>
+
+  <br><br>
+
+  <div class="visitor-counter">
+    <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=8FXsh2m2SR0zxI1ZrKpII4xX8J9bsHOPdC-sOhk_AEY&cl=ffffff&w=a"></script>
+    <noscript>
+      <a href="https://clustrmaps.com/site/1c9ad" title="ClustrMaps" target="_blank" rel="noopener">
+        <img src="//www.clustrmaps.com/map_v2.png?d=8FXsh2m2SR0zxI1ZrKpII4xX8J9bsHOPdC-sOhk_AEY&cl=ffffff" alt="ClustrMaps" />
+      </a>
+    </noscript>
+  </div>
+</div>
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>

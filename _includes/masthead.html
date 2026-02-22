@@ -5,7 +5,7 @@
       <nav id="site-nav" class="greedy-nav">
         <button><span class="navicon"></span></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg persist {% if page.url == '/' or page.url == '/index.html' %}selected{% endif %}">
+          <li class="masthead__menu-item masthead__menu-item--lg persist">
             <a href="{{ base_path }}/">{{ site.title }}</a>
           </li>
           {% for link in site.data.navigation.main %}
@@ -14,8 +14,11 @@
             {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item {% if page.url contains link.url and link.url != '/' %}selected{% endif %}">
-              <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+            <li class="masthead__menu-item">
+              <a
+                href="{{ domain }}{{ link.url }}"
+                data-anchor-target="{{ link.url | split: '#' | last }}"
+              >{{ link.title }}</a>
             </li>
           {% endfor %}
           <li id="theme-toggle" class="masthead__menu-item persist tail">
@@ -27,3 +30,32 @@
     </div>
   </div>
 </div>
+<script>
+  (function () {
+    var nav = document.getElementById('site-nav');
+    if (!nav) {
+      return;
+    }
+
+    var links = nav.querySelectorAll('a[data-anchor-target]');
+    var homeItem = nav.querySelector('li.masthead__menu-item--lg');
+
+    function setActive() {
+      if (homeItem) {
+        homeItem.classList.remove('selected');
+      }
+      var current = (window.location.hash || '#about').replace('#', '');
+      links.forEach(function (link) {
+        var item = link.parentElement;
+        if (!item) {
+          return;
+        }
+        var target = link.getAttribute('data-anchor-target');
+        item.classList.toggle('selected', target === current);
+      });
+    }
+
+    setActive();
+    window.addEventListener('hashchange', setActive, false);
+  })();
+</script>

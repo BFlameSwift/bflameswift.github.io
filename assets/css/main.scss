@@ -41,3 +41,58 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+/* Homepage custom styling */
+.page__content h2 {
+  scroll-margin-top: 88px;
+}
+
+.paper-entry {
+  margin: 0.9rem 0 1.1rem;
+  padding: 0.8rem 1rem;
+  border-left: 3px solid #2b6cb0;
+  background: #f8fbff;
+  border-radius: 10px;
+}
+
+.paper-title-link {
+  color: #0b5ed7;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  font-weight: 700;
+}
+
+.paper-title-link:hover {
+  color: #084298;
+}
+
+.venue-tag {
+  color: #c1121f;
+  font-weight: 700;
+}
+
+.paper-badges {
+  margin-top: 0.4rem;
+}
+
+.paper-badges img {
+  margin-right: 0.4rem;
+  margin-bottom: 0.2rem;
+}
+
+.visitor-counter {
+  margin-top: 0.9rem;
+}
+
+.visitor-counter img {
+  width: 300px;
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.sidebar .author__avatar img {
+  width: 175px;
+  height: 190px;
+  object-fit: cover;
+  object-position: center 30%;
+  border-radius: 45% / 50%;
+}
