@@ -102,7 +102,7 @@ I am currently a Research Intern at Microsoft Research Asia (GenAI Group), worki
 
 <div class="paper-entry">
   <a class="paper-title-link" href="https://github.com/BFlameSwift/Uni-MuMER" target="_blank" rel="noopener">Uni-MuMER: Unified Multi-Task Fine-Tuning of Vision-Language Model for Handwritten Mathematical Expression Recognition</a><br>
-  <span><strong>Yu Li</strong><sup>*</sup>, Jin Jiang<sup>*</sup>, Jianhua Zhu, Shuai Peng, Baole Wei, Yuxuan Zhou, Liangcai Gao<sup>#</sup></span><br>
+  <span><strong>Yu Li</strong><sup>*</sup>, Jin Jiang<sup>*</sup>, <a href="https://qingzhenduyu.github.io/" target="_blank" rel="noopener">Jianhua Zhu</a>, Shuai Peng, Baole Wei, Yuxuan Zhou, <a href="https://scholar.google.com/citations?user=6Ia92WsAAAAJ" target="_blank" rel="noopener">Liangcai Gao</a><sup>#</sup></span><br>
   <span class="venue-tag"><strong>NeurIPS 2025 (CCF-A, Spotlight)</strong></span>
   <div class="paper-badges">
     <a href="https://github.com/BFlameSwift/Uni-MuMER" target="_blank" rel="noopener"><img alt="GitHub Repo" src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github&logoColor=white"></a>
@@ -112,7 +112,7 @@ I am currently a Research Intern at Microsoft Research Asia (GenAI Group), worki
 
 <div class="paper-entry">
   <a class="paper-title-link" href="https://github.com/qingzhenduyu/TAMER" target="_blank" rel="noopener">TAMER: Tree-Aware Transformer for Handwritten Mathematical Expression Recognition</a><br>
-  <span>Jianhua Zhu, Wenqi Zhao, <strong>Yu Li</strong>, Xingjian Hu, Liangcai Gao<sup>#</sup></span><br>
+  <span><a href="https://qingzhenduyu.github.io/" target="_blank" rel="noopener">Jianhua Zhu</a>, Wenqi Zhao, <strong>Yu Li</strong>, Xingjian Hu, <a href="https://scholar.google.com/citations?user=6Ia92WsAAAAJ" target="_blank" rel="noopener">Liangcai Gao</a><sup>#</sup></span><br>
   <span class="venue-tag"><strong>AAAI 2025 (CCF-A)</strong></span>
   <div class="paper-badges">
     <a href="https://github.com/qingzhenduyu/TAMER" target="_blank" rel="noopener"><img alt="GitHub Repo" src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github&logoColor=white"></a>
