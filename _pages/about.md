@@ -1,8 +1,8 @@
 ---
 permalink: /
-title: "Yu Li"
+title: ""
 author_profile: true
-classes: wide
+classes: wide home-no-title
 redirect_from:
   - /about/
   - /about.html
@@ -18,34 +18,68 @@ redirect_from:
 ## 👨‍💻 About me
 {: #about }
 
-I am an M.S. student in Intelligent Science and Technology at Peking University, advised by Prof. Liangcai Gao. My research focuses on handwritten mathematical expression recognition and multimodal reasoning with vision-language models. I am also working on long-context language modeling at Microsoft Research Asia.
+<!-- <div class="intro-lead"> -->
+<!-- I am currently an M.S. student in Intelligent Science and Technology at Peking University, advised by <a href="https://scholar.google.com/citations?user=6Ia92WsAAAAJ" target="_blank" rel="noopener">Prof. Liangcai Gao</a>.
+Before that, I received my B.Eng. in Software Engineering and dual degree in Mathematics and Applied Mathematics from Beihang University. -->
+
+
+
+I am currently a second-year master's student at <img src="/images/icon-pku.svg" class="mini-logo" alt="PKU"><a href="https://www.icst.pku.edu.cn/" target="_blank" rel="noopener">Wangxuan Institute of Computer Technology</a>, Peking University, advised by <a href="https://scholar.google.com/citations?user=6Ia92WsAAAAJ" target="_blank" rel="noopener">Prof. Liangcai Gao</a>. Previously, I received my Bachelor of Engineering in <a href="https://soft.buaa.edu.cn/" target="_blank" rel="noopener">Software Engineering</a> and a dual degree in <a href="https://math.buaa.edu.cn/" target="_blank" rel="noopener">Mathematics and Applied Mathematics</a> from <img src="/images/icon-buaa.svg" class="mini-logo" alt="BUAA"><a href="https://buaa.edu.cn/" target="_blank" rel="noopener">Beihang University</a>.
+
+<!-- </div> -->
+
+<!-- <div class="intro-meta"> -->
+<!-- </div> -->
+
+<!-- <div class="intro-meta">
+I am currently a Research Intern at Microsoft Research Asia (GenAI Group), working on long-context LLM modeling. My research focuses on handwritten mathematical expression recognition and multimodal reasoning with vision-language models. I am always happy to discuss research ideas and potential collaborations.
+</div> -->
 
 ### 🔬 Research Interests
-- Handwritten Mathematical Expression Recognition (HMER)
-- Vision-Language Models and Multimodal Reasoning
-- Long-Context LLMs and Efficient Memory Mechanisms
+- <strong>VLM Reasoning</strong>: Vision-Language Models and Multimodal Reasoning 
+- <strong>Long Context</strong>: Long-Context LLMs and Efficient Memory Mechanisms
+- <strong>Continue Learning</strong>: Dynamic adaptation and integration of evolving knowledge into LLMs
+
 
 ## 📰 News
 {: #news }
 
-- Oct 2025: Started as a Research Intern at MSRA GenAI Group.
-- Sep 2025: `Uni-MuMER` was accepted to NeurIPS 2025 as a Spotlight paper.
-- May 2025: Open-sourced datasets, model checkpoints, and code for `Uni-MuMER`.
+<ul class="news-list">
+  <li><span class="news-date">2025.10:</span> 🎉 Joined MSRA GenAI Group as a Research Intern.</li>
+  <li><span class="news-date">2025.09:</span> 🎉🎉 <code>Uni-MuMER</code> was accepted by <strong>NeurIPS 2025 (CCF-A, Spotlight)</strong>.</li>
+  <li><span class="news-date">2025.05:</span> 🎉 Released open-source datasets, checkpoints, and code for <code>Uni-MuMER</code>.</li>
+  <li><span class="news-date">2025.01:</span> 🎉🎉 <code>TAMER</code> was accepted by <strong>AAAI 2025 (CCF-A)</strong>.</li>
+</ul>
 
 ## 🎓 Education
 {: #education }
 
-- Sep 2024 - Jul 2027 (expected), M.S. in Intelligent Science and Technology, Peking University
-- Sep 2019 - Jun 2023, B.Eng. in Software Engineering, Beihang University (GPA: 3.68/4.00)
-- Sep 2020 - Jun 2023, Dual Degree in Mathematics and Applied Mathematics, Beihang University
+<ul class="edu-exp-list">
+  <li>
+    <span class="edu-exp-row"><strong>2024.09 - 2027.07 (expected)</strong> | <img src="/images/icon-pku.svg" class="mini-logo" alt="PKU"> <strong>M.S. in Intelligent Science and Technology</strong></span><br>
+    <span class="edu-exp-sub"><a href="https://www.icst.pku.edu.cn/" target="_blank" rel="noopener">Wangxuan Institute of Computer Technology</a>, Peking University</span>
+  </li>
+  <li>
+    <span class="edu-exp-row"><strong>2019.09 - 2023.06</strong> | <img src="/images/icon-buaa.svg" class="mini-logo" alt="BUAA"> <strong>B.Eng. in <a href="https://soft.buaa.edu.cn/" target="_blank" rel="noopener">Software Engineering</a></strong></span><br>
+    <span class="edu-exp-sub"><a href="https://buaa.edu.cn/" target="_blank" rel="noopener">Beihang University</a></span>
+  </li>
+  <li>
+    <span class="edu-exp-row"><strong>2020.09 - 2023.06</strong> | <img src="/images/icon-buaa.svg" class="mini-logo" alt="BUAA"> <strong>Dual Degree in <a href="https://math.buaa.edu.cn/" target="_blank" rel="noopener">Mathematics and Applied Mathematics</a></strong></span><br>
+    <span class="edu-exp-sub"><a href="https://buaa.edu.cn/" target="_blank" rel="noopener">Beihang University</a></span>
+  </li>
+</ul>
 
 ## 💼 Research Experiences
 {: #experiences }
 
-### 🧪 Research Internship
-- Oct 2025 - Present, Research Intern, MSRA GenAI Group
-- Working on long-context modeling with compressed-memory mechanisms for LLMs.
-- Exploring training and inference strategies to extend effective context windows under fixed compute budgets.
+<ul class="edu-exp-list">
+  <li>
+    <span class="edu-exp-row"><strong>2025.10 - Present</strong> | <img src="/images/icon-msra.svg" class="mini-logo" alt="MSRA"> <strong>Research Intern, GenAI Group</strong></span><br>
+    <span class="edu-exp-sub">Microsoft Research Asia (MSRA)</span><br>
+    <span class="edu-exp-mentor">Mentor: <a class="mentor-link" href="https://zewen-chi.github.io/" target="_blank" rel="noopener">Zewen Chi</a>, <a class="mentor-link" href="https://dong.li/" target="_blank" rel="noopener">Li Dong</a></span><br>
+    <span class="edu-exp-desc">Long-context modeling with compressed-memory mechanisms for LLMs; build next-generation AI foundation models with enhanced capability, robustness, and broad generalization.</span>
+  </li>
+</ul>
 
 <!--
 ## 🏅 Honors & Awards
@@ -103,7 +137,6 @@ I am an M.S. student in Intelligent Science and Technology at Peking University,
 
 - Teaching Assistant, Discrete Mathematics (Spring 2021)
 - Teaching Assistant, Introduction to Computing B (Fall 2024)
-- Former Vice President, Beihang Marathon Association
 
 ## 📬 Contact
 {: #contact }
@@ -116,25 +149,22 @@ I am an M.S. student in Intelligent Science and Technology at Peking University,
 
 ## 👀 Visitor Counter
 
-<div id="footer" style="text-align: center; font-size: 0.9em; color: #666;">
+<div id="footer" class="visitor-footer">
   <div id="footer-text"></div>
 
-  &copy; 2026 Yu Li<br><br>
+  <span class="visitor-copyright">&copy; 2026 Yu Li</span><br><br>
 
-  <span style="color: #888;">
+  <span class="visitor-stats">
     Total Views: <span id="busuanzi_value_site_pv"></span> |
     Unique Visitors: <span id="busuanzi_value_site_uv"></span>
   </span>
 
-  <br><br>
+  <br>
 
   <div class="visitor-counter">
-    <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=8FXsh2m2SR0zxI1ZrKpII4xX8J9bsHOPdC-sOhk_AEY&cl=ffffff&w=a"></script>
-    <noscript>
-      <a href="https://clustrmaps.com/site/1c9ad" title="ClustrMaps" target="_blank" rel="noopener">
-        <img src="//www.clustrmaps.com/map_v2.png?d=8FXsh2m2SR0zxI1ZrKpII4xX8J9bsHOPdC-sOhk_AEY&cl=ffffff" alt="ClustrMaps" />
-      </a>
-    </noscript>
+    <a href="https://clustrmaps.com/site/1c9ad" title="ClustrMaps" target="_blank" rel="noopener">
+      <img src="//www.clustrmaps.com/map_v2.png?d=8FXsh2m2SR0zxI1ZrKpII4xX8J9bsHOPdC-sOhk_AEY&cl=ffffff" alt="ClustrMaps" />
+    </a>
   </div>
 </div>
 
