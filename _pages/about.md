@@ -24,7 +24,7 @@ Before that, I received my B.Eng. in Software Engineering and dual degree in Mat
 
 
 
-I am currently a second-year master's student at <img src="/images/icon-pku.svg" class="mini-logo" alt="PKU"><a href="https://www.icst.pku.edu.cn/" target="_blank" rel="noopener">Wangxuan Institute of Computer Technology</a>, Peking University, advised by <a href="https://scholar.google.com/citations?user=6Ia92WsAAAAJ" target="_blank" rel="noopener">Prof. Liangcai Gao</a>. Previously, I received my Bachelor of Engineering in <a href="https://soft.buaa.edu.cn/" target="_blank" rel="noopener">Software Engineering</a> and a dual degree in <a href="https://math.buaa.edu.cn/" target="_blank" rel="noopener">Mathematics and Applied Mathematics</a> from <img src="/images/icon-buaa.svg" class="mini-logo" alt="BUAA"><a href="https://buaa.edu.cn/" target="_blank" rel="noopener">Beihang University</a>.
+I am currently a second-year master's student at <img src="/images/icon-pku.svg" class="mini-logo" alt="PKU"><a href="https://www.icst.pku.edu.cn/" target="_blank" rel="noopener">Wangxuan Institute of Computer Technology</a>, Peking University, advised by <a href="https://scholar.google.com/citations?user=6Ia92WsAAAAJ" target="_blank" rel="noopener">Prof. Liangcai Gao</a>. Previously, I received my Bachelor of Engineering in <a href="https://soft.buaa.edu.cn/" target="_blank" rel="noopener">Software Engineering</a> and a dual degree in <a href="https://math.buaa.edu.cn/" target="_blank" rel="noopener">Mathematics and Applied Mathematics</a> from <img src="/images/icon-buaa.svg" class="mini-logo" alt="BUAA"><a href="https://buaa.edu.cn/" target="_blank" rel="noopener">Beihang University</a>. My research focuses on vision-language models (VLM), long-context LLMs, continual learning, and next-generation AI foundation models.
 
 <!-- </div> -->
 
@@ -98,11 +98,11 @@ I am currently a Research Intern at Microsoft Research Asia (GenAI Group), worki
 ## 📚 Selected Publications
 {: #selected-publications }
 
-<span style="font-size: 0.9em;">`#` for equal contributions, `*` for corresponding author.</span>
+<span style="font-size: 0.9em;">`*` for equal contributions (co-first authors), `#` for corresponding author.</span>
 
 <div class="paper-entry">
   <a class="paper-title-link" href="https://github.com/BFlameSwift/Uni-MuMER" target="_blank" rel="noopener">Uni-MuMER: Unified Multi-Task Fine-Tuning of Vision-Language Model for Handwritten Mathematical Expression Recognition</a><br>
-  <span><strong>Yu Li</strong><sup>#</sup>, Jin Jiang<sup>#</sup>, Jianhua Zhu, Shuai Peng, Baole Wei, Yuxuan Zhou, Liangcai Gao<sup>*</sup></span><br>
+  <span><strong>Yu Li</strong><sup>*</sup>, Jin Jiang<sup>*</sup>, Jianhua Zhu, Shuai Peng, Baole Wei, Yuxuan Zhou, Liangcai Gao<sup>#</sup></span><br>
   <span class="venue-tag"><strong>NeurIPS 2025 (CCF-A, Spotlight)</strong></span>
   <div class="paper-badges">
     <a href="https://github.com/BFlameSwift/Uni-MuMER" target="_blank" rel="noopener"><img alt="GitHub Repo" src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github&logoColor=white"></a>
@@ -112,7 +112,7 @@ I am currently a Research Intern at Microsoft Research Asia (GenAI Group), worki
 
 <div class="paper-entry">
   <a class="paper-title-link" href="https://github.com/qingzhenduyu/TAMER" target="_blank" rel="noopener">TAMER: Tree-Aware Transformer for Handwritten Mathematical Expression Recognition</a><br>
-  <span>Jianhua Zhu, Wenqi Zhao, <strong>Yu Li</strong>, Xingjian Hu, Liangcai Gao</span><br>
+  <span>Jianhua Zhu, Wenqi Zhao, <strong>Yu Li</strong>, Xingjian Hu, Liangcai Gao<sup>#</sup></span><br>
   <span class="venue-tag"><strong>AAAI 2025 (CCF-A)</strong></span>
   <div class="paper-badges">
     <a href="https://github.com/qingzhenduyu/TAMER" target="_blank" rel="noopener"><img alt="GitHub Repo" src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github&logoColor=white"></a>
@@ -136,7 +136,7 @@ I am currently a Research Intern at Microsoft Research Asia (GenAI Group), worki
 {: #academic-services }
 
 - Teaching Assistant, Discrete Mathematics (Spring 2021)
-- Teaching Assistant, Introduction to Computing B (Fall 2024)
+- Teaching Assistant, Introduction to Computing B (Fall 2024, Fall 2025)
 
 ## 📬 Contact
 {: #contact }
