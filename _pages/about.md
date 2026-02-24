@@ -56,8 +56,8 @@ I am currently a Research Intern at Microsoft Research Asia (GenAI Group), worki
 
 <ul class="edu-exp-list">
   <li>
-    <span class="edu-exp-row"><strong>2024.09 - 2027.07 (expected)</strong> | <img src="/images/icon-pku.svg" class="mini-logo" alt="PKU"> <strong>M.S. in Intelligent Science and Technology</strong></span><br>
-    <span class="edu-exp-sub"><a href="https://www.icst.pku.edu.cn/" target="_blank" rel="noopener">Wangxuan Institute of Computer Technology</a>, Peking University</span>
+    <span class="edu-exp-row"><strong>2024.09 - 2027.07 (expected)</strong> | <img src="/images/icon-pku.svg" class="mini-logo" alt="PKU"> <strong>M.S. in <a href="https://www.icst.pku.edu.cn/" target="_blank" rel="noopener">Wangxuan Institute of Computer Technology</a></strong></span><br>
+    <span class="edu-exp-sub"><a href="https://pku.edu.cn/" target="_blank" rel="noopener">Peking University</a></span>
   </li>
   <li>
     <span class="edu-exp-row"><strong>2019.09 - 2023.06</strong> | <img src="/images/icon-buaa.svg" class="mini-logo" alt="BUAA"> <strong>B.Eng. in <a href="https://soft.buaa.edu.cn/" target="_blank" rel="noopener">Software Engineering</a></strong></span><br>
@@ -98,7 +98,7 @@ I am currently a Research Intern at Microsoft Research Asia (GenAI Group), worki
 ## 📚 Selected Publications
 {: #selected-publications }
 
-<span style="font-size: 0.9em;">`*` for equal contributions (co-first authors), `#` for corresponding author.</span>
+<span style="font-size: 0.9em;">`*` for equal contributions, `#` for corresponding author.</span>
 
 <div class="paper-entry">
   <a class="paper-title-link" href="https://github.com/BFlameSwift/Uni-MuMER" target="_blank" rel="noopener">Uni-MuMER: Unified Multi-Task Fine-Tuning of Vision-Language Model for Handwritten Mathematical Expression Recognition</a><br>
@@ -107,6 +107,7 @@ I am currently a Research Intern at Microsoft Research Asia (GenAI Group), worki
   <div class="paper-badges">
     <a href="https://github.com/BFlameSwift/Uni-MuMER" target="_blank" rel="noopener"><img alt="GitHub Repo" src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github&logoColor=white"></a>
     <a href="https://github.com/BFlameSwift/Uni-MuMER/stargazers" target="_blank" rel="noopener"><img alt="GitHub stars" src="https://img.shields.io/github/stars/BFlameSwift/Uni-MuMER?style=social"></a>
+    <a href="https://huggingface.co/collections/phxember/uni-mumer" target="_blank" rel="noopener"><img alt="Hugging Face Collection" src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Collection-FFD21E"></a>
   </div>
 </div>
 
