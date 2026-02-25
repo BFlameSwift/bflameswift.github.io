@@ -36,6 +36,24 @@
       {% if author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
       {% endif %}
+      {% if author.wechat_qr %}
+        {% if author.wechat_qr contains "://" %}
+          {% assign wechat_qr_src = author.wechat_qr %}
+        {% else %}
+          {% assign wechat_qr_src = author.wechat_qr | prepend: "/images/" | prepend: base_path %}
+        {% endif %}
+        <li class="author__wechat-item">
+          <details class="author__wechat-details">
+            <summary class="author__wechat-summary"><i class="fab fa-fw fa-weixin icon-pad-right" aria-hidden="true"></i>WeChat</summary>
+            <div class="author__wechat-popover">
+              <img src="{{ wechat_qr_src }}" alt="WeChat QR code" loading="lazy" />
+              {% if author.wechat %}
+                <span class="author__wechat-id">{{ author.wechat }}</span>
+              {% endif %}
+            </div>
+          </details>
+        </li>
+      {% endif %}
 
       <!-- Font Awesome and Academicons icons / Academic websites -->
       {% if author.academia %}

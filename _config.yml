@@ -77,6 +77,8 @@ author:
   twitter          : # Username for X / Twitter
   vine             : # Username
   weibo            : # Username
+  wechat           : # WeChat ID / display text (optional)
+  wechat_qr        : "wechat-qr.png" # QR image path (e.g. "wechat-qr.jpg" under /images/ or full URL)
   wikipedia        : # Username
   xing             : # Username
   youtube          : # Username
