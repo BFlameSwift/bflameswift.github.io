@@ -76,7 +76,7 @@ bundle install
 ### Run Locally
 
 ```bash
-bundle exec jekyll serve -l -H localhost
+scripts/serve-local.sh
 ```
 
 Then open:

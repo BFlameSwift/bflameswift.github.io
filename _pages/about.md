@@ -15,6 +15,8 @@ redirect_from:
 - Google Scholar: [dxkSAiwAAAAJ](https://scholar.google.com/citations?user=dxkSAiwAAAAJ&hl=zh-CN)
 - GitHub: [BFlameSwift](https://github.com/BFlameSwift) -->
 
+<!-- ## Welcome to Yu Li's homepage! -->
+
 ## 👨‍💻 About me
 {: #about }
 
@@ -45,6 +47,7 @@ I am currently a Research Intern at Microsoft Research Asia (GenAI Group), worki
 {: #news }
 
 <ul class="news-list">
+  <li><span class="news-date">2026.05:</span> 🎉🎉 <code>Uni-DocRobust</code> was accepted by <strong>ICML 2026 (CCF-A)</strong>.</li>
   <li><span class="news-date">2025.10:</span> 🎉 Joined <img src="/images/icon-msra.svg" class="news-logo" alt="MSRA">MSRA GenAI Group as a Research Intern.</li>
   <li><span class="news-date">2025.09:</span> 🎉🎉 <code>Uni-MuMER</code> was accepted by <img src="/images/icon-neurips.svg" class="news-logo" alt="NeurIPS"><strong>NeurIPS 2025 (CCF-A, Spotlight)</strong>.</li>
   <li><span class="news-date">2025.05:</span> 🎉 Released open-source datasets, checkpoints, and code for <code>Uni-MuMER</code>.</li>
@@ -112,6 +115,12 @@ I am currently a Research Intern at Microsoft Research Asia (GenAI Group), worki
 </div>
 
 <div class="paper-entry">
+  <span class="paper-title-link">Uni-DocRobust: Universal Plug-and-Play Robustness Enhancement for Multi-modal LLMs via Feature Restoration</span><br>
+  <span>Yuxuan Zhou, Baole Wei, Xingjian Hu, Haowei Chen, <strong>Yu Li</strong>, Xingyue Lin, <a href="https://scholar.google.com/citations?user=6Ia92WsAAAAJ" target="_blank" rel="noopener">Liangcai Gao</a>, Zhi Tang</span><br>
+  <span class="venue-tag"><strong>ICML 2026 (CCF-A)</strong></span>
+</div>
+
+<div class="paper-entry">
   <a class="paper-title-link" href="https://github.com/qingzhenduyu/TAMER" target="_blank" rel="noopener">TAMER: Tree-Aware Transformer for Handwritten Mathematical Expression Recognition</a><br>
   <span><a href="https://qingzhenduyu.github.io/" target="_blank" rel="noopener">Jianhua Zhu</a>, Wenqi Zhao, <strong>Yu Li</strong>, Xingjian Hu, <a href="https://scholar.google.com/citations?user=6Ia92WsAAAAJ" target="_blank" rel="noopener">Liangcai Gao</a><sup>#</sup></span><br>
   <span class="venue-tag"><img src="/images/icon-aaai.svg" class="venue-logo" alt="AAAI"><strong>AAAI 2025 (CCF-A)</strong></span>
@@ -136,8 +145,9 @@ I am currently a Research Intern at Microsoft Research Asia (GenAI Group), worki
 ## 🤝 Academic Services
 {: #academic-services }
 
-- Teaching Assistant, Discrete Mathematics (Spring 2021)
+- Reviewer, NeurIPS 2026
 - Teaching Assistant, Introduction to Computing B (Fall 2024, Fall 2025)
+- Teaching Assistant, Discrete Mathematics (Spring 2021)
 
 ## 📬 Contact
 {: #contact }
@@ -163,9 +173,7 @@ I am currently a Research Intern at Microsoft Research Asia (GenAI Group), worki
   <br>
 
   <div class="visitor-counter">
-    <a href="https://clustrmaps.com/site/1c9ad" title="ClustrMaps" target="_blank" rel="noopener">
-      <img src="//www.clustrmaps.com/map_v2.png?d=8FXsh2m2SR0zxI1ZrKpII4xX8J9bsHOPdC-sOhk_AEY&cl=ffffff" alt="ClustrMaps" />
-    </a>
+    <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=8FXsh2m2SR0zxI1ZrKpII4xX8J9bsHOPdC-sOhk_AEY&cl=ffffff&w=a&t=tt"></script>
   </div>
 </div>
 
