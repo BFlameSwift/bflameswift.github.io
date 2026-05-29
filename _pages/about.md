@@ -79,7 +79,7 @@ I am currently a Research Intern at Microsoft Research Asia (GenAI Group), worki
   <li>
     <span class="edu-exp-row"><strong>2025.10 - Present</strong> | <img src="/images/icon-msra.svg" class="mini-logo" alt="MSRA"> <strong>Research Intern, GenAI Group</strong></span><br>
     <span class="edu-exp-sub">Microsoft Research Asia (MSRA)</span><br>
-    <span class="edu-exp-mentor">Mentor: <a class="mentor-link" href="https://zewen-chi.github.io/" target="_blank" rel="noopener">Zewen Chi</a>, <a class="mentor-link" href="https://dong.li/" target="_blank" rel="noopener">Li Dong</a></span><br>
+    <span class="edu-exp-mentor">Mentor: <a class="mentor-link" href="https://dong.li/" target="_blank" rel="noopener">Li Dong</a>, <a class="mentor-link" href="https://zewen-chi.github.io/" target="_blank" rel="noopener">Zewen Chi</a></span><br>
     <span class="edu-exp-desc">Long-context modeling with compressed-memory mechanisms for LLMs; build next-generation AI foundation models with enhanced capability, robustness, and broad generalization.</span>
   </li>
 </ul>
