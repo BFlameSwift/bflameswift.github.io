@@ -173,7 +173,6 @@ I am currently a Research Intern at Microsoft Research Asia (GenAI Group), worki
     Current-site Views: <span id="busuanzi_value_site_pv">Loading…</span> |
     Current-site Visitors: <span id="busuanzi_value_site_uv">Loading…</span>
   </span><br>
-  <span class="visitor-stats">Archived github.io ({{ site.data.visitor_history.legacy.observed_date }}): {{ site.data.visitor_history.legacy.site_pv }} views · {{ site.data.visitor_history.legacy.site_uv }} visitors.<br>Total Views includes the archived views.</span>
   <script defer src="/assets/js/visitor-stats.js"></script>
   {% else %}
   <span class="visitor-stats">

@@ -11,6 +11,19 @@ legacy:
   method: "Provider JSONP response with the legacy homepage Referer; diagnostic requests may increment counters."
   raw_response: '{"site_uv":879,"page_pv":895,"version":2.4,"site_pv":1608}'
 clustrmaps:
+  legacy_detail_url: "https://clustrmaps.com/site/1c9ad"
+  legacy_short_id: "1c9ad"
+  legacy_image_url: "https://www.clustrmaps.com/map_v2.png?d=8FXsh2m2SR0zxI1ZrKpII4xX8J9bsHOPdC-sOhk_AEY&cl=ffffff"
+  detail_url_source: "Repository commit c5bcf6b, 2026-02-22; same link retained in fd398cb."
   widget_id: "8FXsh2m2SR0zxI1ZrKpII4xX8J9bsHOPdC-sOhk_AEY"
   source: "https://clustrmaps.com/map_v2.js"
   status: "Legacy identifier preserved; history not exported because HTTPS validation failed on 2026-10-10."
+  recovery_observed_date: "2026-10-10"
+  recovery_findings:
+    - "Scoped Chrome history search found no matching links; Git history recovered the original detail URL and image URL."
+    - "Original www.clustrmaps.com map-image hostname also resolves to 127.0.0.1; original HTTPS image fetch failed."
+    - "Old short identifier 1c9ad is not available through the candidate provider's visible /web/ detail route (404)."
+    - "Google public DNS and JD server resolver return 127.0.0.1 for clustrmaps.com."
+    - "Candidate MapMyVisitors endpoint returns 404 with the old widget identifier; historical-data continuity unverified."
+    - "Internet Archive availability query found no capture for the exact original widget URL."
+  replacement_created: false

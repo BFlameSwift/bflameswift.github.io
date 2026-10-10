@@ -139,9 +139,11 @@ Once GitHub Pages finishes deploying, the live site will update automatically.
 
 ## Visitor history
 
-`_data/visitor_history.yml` preserves the 2026-10-10 Busuanzi response for the former GitHub domain: 1,608 site page views and 879 reported site visitors. This is a dated provider snapshot; diagnostic requests may affect the count. The new domain is counted separately. The JD Cloud footer adds the archived page-view baseline to live new-domain page views and labels both components. Visitor counts are shown separately because the same visitor may appear on both domains.
+`_data/visitor_history.yml` preserves the 2026-10-10 Busuanzi response for the former GitHub domain: 1,608 site page views and 879 reported site visitors. This is a dated provider snapshot; diagnostic requests may affect the count. The new domain is counted separately. The JD Cloud footer adds the archived page-view baseline to live new-domain page views; the archival date and explanation remain in this documentation rather than the public page. Visitor counts remain domain-specific because the same visitor may appear on both domains.
 
 The legacy ClustrMaps widget identifier is retained in the archive and source. Its HTTPS endpoint failed validation during migration, so the JD overlay temporarily disables that widget. This preserves its configuration, but does not constitute an export or successful recovery of the map provider's historical data. No provider account or historical data was reset.
+
+Recovery checks on 2026-10-10: Google public DNS and the server resolver returned `127.0.0.1` for the old hostname; the original image hostname `www.clustrmaps.com` also resolves to loopback. Git history recovered the original detail URL, `https://clustrmaps.com/site/1c9ad`, from commit `c5bcf6b`. Reusing the widget identifier or short identifier at the candidate MapMyVisitors service returned 404; continuity of accounts/data is unverified. The Internet Archive availability endpoint reported no snapshot for the exact widget URL; subsequent detail/image archive checks were rate-limited. A bounded Chrome history search found no matching links. No replacement widget was created. Map history cannot currently be retrieved through these inspected endpoints; a provider-side recovery or an owner-held export remains necessary.
 
 ## Acknowledgement
 
