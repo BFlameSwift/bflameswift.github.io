@@ -1,0 +1,16 @@
+# Provider snapshot, not a deduplicated cross-domain visitor database.
+legacy:
+  domain: "bflameswift.github.io"
+  observed_date: "2026-10-10"
+  site_pv: 1608
+  site_uv: 879
+  page_pv: 895
+  provider: "Busuanzi"
+  provider_version: "2.4"
+  source: "https://busuanzi.ibruce.info/busuanzi"
+  method: "Provider JSONP response with the legacy homepage Referer; diagnostic requests may increment counters."
+  raw_response: '{"site_uv":879,"page_pv":895,"version":2.4,"site_pv":1608}'
+clustrmaps:
+  widget_id: "8FXsh2m2SR0zxI1ZrKpII4xX8J9bsHOPdC-sOhk_AEY"
+  source: "https://clustrmaps.com/map_v2.js"
+  status: "Legacy identifier preserved; history not exported because HTTPS validation failed on 2026-10-10."

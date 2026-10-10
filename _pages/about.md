@@ -167,16 +167,28 @@ I am currently a Research Intern at Microsoft Research Asia (GenAI Group), worki
 
   <span class="visitor-copyright">&copy; 2026 Yu Li</span><br><br>
 
+  {% if site.visitor_history_enabled %}
+  <span class="visitor-stats" data-legacy-pv="{{ site.data.visitor_history.legacy.site_pv }}">
+    Total Views: <span id="visitor_total_views">Loading…</span><br>
+    Current-site Views: <span id="busuanzi_value_site_pv">Loading…</span> |
+    Current-site Visitors: <span id="busuanzi_value_site_uv">Loading…</span>
+  </span><br>
+  <span class="visitor-stats">Archived github.io ({{ site.data.visitor_history.legacy.observed_date }}): {{ site.data.visitor_history.legacy.site_pv }} views · {{ site.data.visitor_history.legacy.site_uv }} visitors.<br>Total Views includes the archived views.</span>
+  <script defer src="/assets/js/visitor-stats.js"></script>
+  {% else %}
   <span class="visitor-stats">
     Total Views: <span id="busuanzi_value_site_pv"></span> |
     Unique Visitors: <span id="busuanzi_value_site_uv"></span>
   </span>
+  {% endif %}
 
   <br>
 
+  {% if site.clustrmaps.enabled != false %}
   <div class="visitor-counter">
     <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=8FXsh2m2SR0zxI1ZrKpII4xX8J9bsHOPdC-sOhk_AEY&cl=ffffff&w=a&t=tt"></script>
   </div>
+  {% endif %}
 </div>
 
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
