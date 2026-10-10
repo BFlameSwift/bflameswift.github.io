@@ -1,0 +1,5 @@
+# Overlay for the JD Cloud build; GitHub Pages remains independently buildable.
+url: "https://me.bflame.top"
+baseurl: ""
+icp_number: "京ICP备2024094170号-1"
+github_pages_redirect_to: false

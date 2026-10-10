@@ -1,6 +1,6 @@
 # Yu Li's Academic Homepage
 
-This repository contains the source code for [https://bflameswift.github.io/](https://bflameswift.github.io/), a Jekyll-based academic homepage for Yu Li.
+This repository contains the source code for Yu Li's Jekyll-based academic homepage at [me.bflame.top](https://me.bflame.top/), with [GitHub Pages](https://bflameswift.github.io/) retained as a separate mirror.
 
 The site is built on top of Academic Pages and has been customized into a single-page personal website with section-based navigation, a customized sidebar, publication badges, conference logos, and visitor counters.
 
@@ -97,6 +97,30 @@ Common edits are straightforward:
 - Adjust layout and presentation in `assets/css/main.scss`
 
 ## Deployment
+
+### JD Cloud
+
+Build the custom-domain version with the overlay configuration:
+
+```bash
+bundle exec jekyll build --config _config.yml,_config_jdcloud.yml --destination local/me-bflame-build
+```
+
+The overlay sets the canonical domain and the ICP footer. The generated output is ignored by Git. Only generated site files should be uploaded, never the repository or its local dependencies.
+
+The Nginx virtual host serves `/var/www/me.bflame.top/current`, pointing to a versioned directory under `/var/www/me.bflame.top/releases/`. The configuration is `/etc/nginx/conf.d/me.bflame.top.conf`. Deploy a fresh release directory, verify its files, switch the `current` symlink, and check the public homepage and assets. Preserve the previous release for rollback. Configuration updates require a backup, `nginx -t`, reload, and public verification.
+
+TLS uses the existing server Certbot installation, a separate `me.bflame.top` certificate, HTTP webroot `/var/www/letsencrypt`, and the existing renewal timer and Nginx reload hook. Check renewal with `certbot renew --cert-name me.bflame.top --dry-run`.
+
+The initial deployment on 2026-10-10 uses release `20261010-initial`. DNS is an A record for `me`, default route, TTL 600 seconds. Backups and deployment candidates live under `/var/www/me.bflame.top/backups/20261010-initial/` and `/var/www/me.bflame.top/staging/`. The hostname has its own virtual host and certificate; existing apex and other services retain their configuration.
+
+GitHub pushes do not automatically update the JD Cloud release; build and deploy it separately after content changes.
+
+### GitHub Pages mirror
+
+GitHub Pages retains the site content but redirects visitors to `https://me.bflame.top/`, preserving the path, query and fragment when JavaScript is available. A no-JavaScript refresh and a manual link are also provided. `_config_jdcloud.yml` disables this behavior for the JD Cloud build, preventing a redirect loop. No GitHub custom-domain binding or DNS change is needed.
+
+The `Backup` branch preserves the GitHub Pages version from before this migration (`0b07c05`). All earlier commits remain in history. To stop redirecting, set `github_pages_redirect_to: false` in `_config.yml` and rebuild/publish GitHub Pages; restoring the whole backup is unnecessary for that change.
 
 This site is deployed with GitHub Pages from this repository:
 

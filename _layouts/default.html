@@ -7,11 +7,16 @@ layout: compress
 <!doctype html>
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js"{% if site.site_theme == "dark" %} data-theme="dark"{% endif %}>
   <head>
+    {% include github-pages-redirect.html %}
     {% include head.html %}
     {% include head/custom.html %}
   </head>
 
   <body>
+
+    {% if site.github_pages_redirect_to %}
+    <p class="notice--info">This website has moved to <a href="{{ site.github_pages_redirect_to }}">me.bflame.top</a>. If you are not redirected automatically, please follow the link.</p>
+    {% endif %}
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}

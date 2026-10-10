@@ -1,0 +1,16 @@
+{% if site.github_pages_redirect_to %}
+<script>
+  (() => {
+    const destination = new URL({{ site.github_pages_redirect_to | jsonify }});
+    destination.pathname = window.location.pathname;
+    destination.search = window.location.search;
+    destination.hash = window.location.hash;
+    if (destination.origin !== window.location.origin) {
+      window.location.replace(destination.href);
+    }
+  })();
+</script>
+<noscript>
+  <meta http-equiv="refresh" content="0; url={{ site.github_pages_redirect_to }}{{ page.url | remove_first: '/' }}">
+</noscript>
+{% endif %}
