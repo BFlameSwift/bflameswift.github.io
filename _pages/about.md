@@ -147,7 +147,7 @@ I am currently a Research Intern at Microsoft Research Asia (GenAI Group), worki
 ## 🤝 Academic Services
 {: #academic-services }
 
-- Reviewer, NeurIPS 2026
+- **Top Reviewer**, NeurIPS 2026 (Main Track)
 - Teaching Assistant, Introduction to Computing B (Fall 2024, Fall 2025)
 - Teaching Assistant, Discrete Mathematics (Spring 2021)
 
