@@ -49,6 +49,8 @@ I am currently a Research Intern at Microsoft Research Asia (GenAI Group), worki
 {: #news }
 
 <ul class="news-list">
+  <li><span class="news-date">2026.10:</span> 🎉 Named a <strong>Top Reviewer</strong> for <img src="/images/icon-neurips.svg" class="news-logo" alt="NeurIPS"><strong>NeurIPS 2026 (Main Track)</strong>.</li>
+  <li><span class="news-date">2026.09:</span> 🎉 Received the <strong>Academic Excellence Award (university-level)</strong> from <img src="/images/icon-pku.svg" class="news-logo" alt="PKU"><strong>Peking University</strong>.</li>
   <li><span class="news-date">2026.05:</span> 🎉🎉 <code>Uni-DocRobust</code> was accepted by <img src="/images/icon-icml.svg" class="news-logo logo-icml" alt="ICML"><strong>ICML 2026 (CCF-A)</strong>.</li>
   <li><span class="news-date">2025.10:</span> 🎉 Joined <img src="/images/icon-msra.svg" class="news-logo" alt="MSRA">MSRA GenAI Group as a Research Intern.</li>
   <li><span class="news-date">2025.09:</span> 🎉🎉 <code>Uni-MuMER</code> was accepted by <img src="/images/icon-neurips.svg" class="news-logo" alt="NeurIPS"><strong>NeurIPS 2025 (CCF-A, Spotlight)</strong>.</li>
