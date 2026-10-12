@@ -1,0 +1,11 @@
+[Unit]
+Description=Publish aggregate daily personal-site page views
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /opt/me-bflame-stats/aggregate.py --logs /var/log/nginx --state /var/lib/me-bflame-stats/history.json --output /var/www/me.bflame.top/shared/stats/daily.json
+UMask=0077
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/me-bflame-stats /var/www/me.bflame.top/shared/stats

@@ -175,7 +175,7 @@ I am currently a Research Intern at Microsoft Research Asia (GenAI Group), worki
     Current-site Views: <span id="busuanzi_value_site_pv">Loading…</span> |
     Current-site Visitors: <span id="busuanzi_value_site_uv">Loading…</span>
   </span><br>
-  <script defer src="/assets/js/visitor-stats.js"></script>
+  <script defer src="/assets/js/visitor-stats.js?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
   {% else %}
   <span class="visitor-stats">
     Total Views: <span id="busuanzi_value_site_pv"></span> |
@@ -184,6 +184,13 @@ I am currently a Research Intern at Microsoft Research Asia (GenAI Group), worki
   {% endif %}
 
   <br>
+
+  {% if site.daily_stats_enabled %}
+  <details class="visitor-daily">
+    <summary>Today's Page Views: <span id="visitor_today_views">Loading…</span> · Daily statistics (UTC+8)</summary>
+    <ul id="visitor_daily_days"></ul>
+  </details>
+  {% endif %}
 
   {% if site.clustrmaps.enabled != false %}
   <div class="visitor-counter">

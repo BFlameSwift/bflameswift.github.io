@@ -173,6 +173,8 @@ include:
   - _pages
   - files
 exclude:
+  - temp
+  - scripts/daily-stats
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

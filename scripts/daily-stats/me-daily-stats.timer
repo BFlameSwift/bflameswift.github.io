@@ -1,0 +1,10 @@
+[Unit]
+Description=Refresh daily personal-site statistics every five minutes
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=5min
+Unit=me-daily-stats.service
+
+[Install]
+WantedBy=timers.target

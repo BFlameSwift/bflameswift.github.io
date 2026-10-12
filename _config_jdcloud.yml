@@ -4,5 +4,6 @@ baseurl: ""
 icp_number: "京ICP备2024094170号-1"
 github_pages_redirect_to: false
 visitor_history_enabled: true
+daily_stats_enabled: true
 clustrmaps:
   enabled: false

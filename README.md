@@ -145,6 +145,14 @@ The legacy ClustrMaps widget identifier is retained in the archive and source. I
 
 Recovery checks on 2026-10-10: Google public DNS and the server resolver returned `127.0.0.1` for the old hostname; the original image hostname `www.clustrmaps.com` also resolves to loopback. Git history recovered the original detail URL, `https://clustrmaps.com/site/1c9ad`, from commit `c5bcf6b`. Reusing the widget identifier or short identifier at the candidate MapMyVisitors service returned 404; continuity of accounts/data is unverified. The Internet Archive availability endpoint reported no snapshot for the exact widget URL; subsequent detail/image archive checks were rate-limited. A bounded Chrome history search found no matching links. No replacement widget was created. Map history cannot currently be retrieved through these inspected endpoints; a provider-side recovery or an owner-held export remains necessary.
 
+## Daily page views
+
+The JD deployment publishes `/stats/daily.json` from a dedicated Nginx date-only log, starting on 2026-10-12. It counts successful HTML GET requests (200/304), excludes assets, empty user agents and common bot/tool user agents, and stores no client IP, URL, query or user agent in this dedicated log. It is a page-request metric, not unique visitors, and differs from Busuanzi's browser-based cumulative metric. Earlier days have no data and render as a dash; the first day is partial.
+
+`scripts/daily-stats/aggregate.py` retains private historical aggregates under `/var/lib/me-bflame-stats/history.json`, handles existing log rotation, and atomically publishes the last seven days under `/var/www/me.bflame.top/shared/stats/daily.json`. The `me-daily-stats.timer` refreshes every five minutes. Shared stats are independent of versioned site releases; content deployment must preserve the JSON alias and both access-log directives in the dedicated virtual host. The server's Nginx clock is UTC+8; keep it aligned with the displayed timezone.
+
+Source configs live under `scripts/daily-stats/` and are excluded from generated public files. Rollback configuration is under `/var/www/me.bflame.top/backups/20261012-daily/`; disable the scoped timer and restore the previous dedicated vhost if retiring this feature. Ordinary pre-existing server access logging remains unchanged.
+
 ## Acknowledgement
 
 This project is based on [Academic Pages](https://academicpages.github.io/), with extensive customization for Yu Li's personal academic homepage.
