@@ -151,7 +151,7 @@ The JD deployment publishes `/stats/daily.json` from a dedicated Nginx date-only
 
 `scripts/daily-stats/aggregate.py` retains private historical aggregates under `/var/lib/me-bflame-stats/history.json`, handles existing log rotation, and atomically publishes the last seven days under `/var/www/me.bflame.top/shared/stats/daily.json`. The `me-daily-stats.timer` refreshes every five minutes. Shared stats are independent of versioned site releases; content deployment must preserve the JSON alias and both access-log directives in the dedicated virtual host. The server's Nginx clock is UTC+8; keep it aligned with the displayed timezone.
 
-Source configs live under `scripts/daily-stats/` and are excluded from generated public files. Rollback configuration is under `/var/www/me.bflame.top/backups/20261012-daily/`; disable the scoped timer and restore the previous dedicated vhost if retiring this feature. Ordinary pre-existing server access logging remains unchanged.
+Source configs live under `scripts/daily-stats/` and are excluded from generated public files. `nginx-http.conf` belongs in the Nginx HTTP context; `nginx-server.conf` contains the corresponding HTTPS-server logging and JSON route. Rollback configuration is under `/var/www/me.bflame.top/backups/20261012-daily/`; disable the scoped timer and restore the previous dedicated vhost if retiring this feature. Ordinary pre-existing server access logging remains unchanged.
 
 ## Acknowledgement
 
