@@ -155,7 +155,15 @@ Source configs live under `scripts/daily-stats/` and are excluded from generated
 
 ## Google Scholar citation badges
 
-Per-paper badges link to the verified Google Scholar citing-article cluster. Counts and the check date live in `_data/scholar_citations.yml`; the date appears in each badge's hover title. These are manually verified snapshots, not live counts. Refresh the profile, confirm the paper titles/cluster IDs and update this data file when updating counts. Badges use local HTML/CSS so external badge/image services are not needed to render them.
+Per-paper badges link to the verified Google Scholar citing-article cluster. `_data/scholar_citations.yml` supplies the build-time fallback. On JD Cloud, `assets/js/scholar-citations.js` reads the last-good `/stats/scholar.json` snapshot; failure or invalid data leaves the rendered fallback unchanged. The hover title records the successful check date. Badges use local HTML/CSS, not an external badge service.
+
+`scripts/scholar/update.py` fetches the public profile once per day and validates all three paper IDs, title prefixes, cluster IDs and numeric counts before atomically publishing. Network errors, CAPTCHA/block pages, missing papers, invalid values and write failures do not overwrite the previous snapshot. A lower valid count is allowed because Scholar can correct its index. Empty fields are deliberately rejected rather than interpreted as zero. No login, credentials or CAPTCHA bypass is used.
+
+Server source: `/opt/me-scholar-citations/update.py`; shared last-good data: `/var/www/me.bflame.top/shared/stats/scholar.json`. `me-scholar-citations.timer` runs at 08:20-08:30 Asia/Taipei daily (persistent catch-up after downtime). Failures remain in the service journal. The dedicated HTTPS vhost serves the JSON with `no-store`; preserve this alias during later releases. Run `PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s scripts/scholar -v` to verify successful parsing and last-good retention. Rollback: disable this timer, restore the dedicated vhost backup under `backups/20261017-scholar`, and switch the site release back; retain the shared JSON for recovery.
+
+The service needs the server's existing outbound proxy route: its device-local `network.conf` systemd drop-in mirrors the existing HTTPS proxy, without credentials. Interactive SSH environments are not inherited by systemd. This route is a dependency, not a newly provisioned proxy; if unavailable, refresh fails safely and the last-good counts remain visible.
+
+Map follow-up on 2026-10-17: the old map remains unrecovered, not proven deleted. Original identifiers and prior archive findings are retained; no old account, counter or configuration was reset. The owner permits a new map if recovery fails. MapMyVisitors creation reached the account-verification step for `https://me.bflame.top/`; registration requires owner-entered credentials and acceptance of terms. No replacement map has been created or embedded pending that owner step. A future new map must use its own configuration and must not be presented as recovered historical geography.
 
 ## Acknowledgement
 

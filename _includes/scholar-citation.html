@@ -1,2 +1,2 @@
 {% assign scholar_paper = site.data.scholar_citations.papers[include.paper] %}
-<a class="scholar-citation-badge" href="{{ scholar_paper.url | replace: '&', '&amp;' }}" target="_blank" rel="noopener" title="Google Scholar citations; checked {{ site.data.scholar_citations.checked_on }}"><span>Google Scholar</span><span>Cited by {{ scholar_paper.count }}</span></a>
+<a class="scholar-citation-badge" data-scholar-paper="{{ include.paper }}" href="{{ scholar_paper.url | replace: '&', '&amp;' }}" target="_blank" rel="noopener" title="Google Scholar citations; checked {{ site.data.scholar_citations.checked_on }}"><span>Google Scholar</span><span>Cited by {{ scholar_paper.count }}</span></a>

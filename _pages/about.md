@@ -134,6 +134,7 @@ I am currently a Research Intern at Microsoft Research Asia (GenAI Group), worki
   <span class="venue-tag"><img src="/images/icon-aaai.svg" class="venue-logo" alt="AAAI"><strong>AAAI 2025 (CCF-A)</strong></span>
   <div class="paper-badges">
     {% include scholar-citation.html paper="tamer" %}
+    <script defer src="/assets/js/scholar-citations.js?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
     <a href="https://github.com/qingzhenduyu/TAMER" target="_blank" rel="noopener"><img alt="GitHub Repo" src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github&logoColor=white"></a>
     <a href="https://github.com/qingzhenduyu/TAMER/stargazers" target="_blank" rel="noopener"><img alt="GitHub stars" src="https://img.shields.io/github/stars/qingzhenduyu/TAMER?style=social"></a>
   </div>

@@ -175,6 +175,7 @@ include:
 exclude:
   - temp
   - scripts/daily-stats
+  - scripts/scholar
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

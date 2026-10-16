@@ -18,7 +18,7 @@ clustrmaps:
   widget_id: "8FXsh2m2SR0zxI1ZrKpII4xX8J9bsHOPdC-sOhk_AEY"
   source: "https://clustrmaps.com/map_v2.js"
   status: "Legacy identifier preserved; history not exported because HTTPS validation failed on 2026-10-10."
-  recovery_observed_date: "2026-10-10"
+  recovery_observed_date: "2026-10-17"
   recovery_findings:
     - "Scoped Chrome history search found no matching links; Git history recovered the original detail URL and image URL."
     - "Original www.clustrmaps.com map-image hostname also resolves to 127.0.0.1; original HTTPS image fetch failed."
@@ -27,3 +27,9 @@ clustrmaps:
     - "Candidate MapMyVisitors endpoint returns 404 with the old widget identifier; historical-data continuity unverified."
     - "Internet Archive availability query found no capture for the exact original widget URL."
   replacement_created: false
+  archive_recheck_20261017:
+    wayback_detail_cdx: "Exact original detail URL, HTTP 200 filter, digest collapse: []"
+    arquivo_detail: "Exact original detail URL: estimated_nr_results=0, response_items=[]"
+    previous_image_search: "Exact widget-ID search found no matching archived map; unrelated images were rejected."
+    conclusion: "Historical geographic distribution remains unrecovered; not evidence of permanent deletion."
+  replacement_status: "Owner permits a new map. MapMyVisitors setup reached account verification; awaiting owner registration/sign-in and terms acceptance. Old identifiers are unchanged."
