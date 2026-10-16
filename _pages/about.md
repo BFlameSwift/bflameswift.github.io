@@ -112,6 +112,7 @@ I am currently a Research Intern at Microsoft Research Asia (GenAI Group), worki
   <span><strong>Yu Li</strong><sup>*</sup>, Jin Jiang<sup>*</sup>, <a href="https://qingzhenduyu.github.io/" target="_blank" rel="noopener">Jianhua Zhu</a>, Shuai Peng, Baole Wei, Yuxuan Zhou, <a href="https://scholar.google.com/citations?user=6Ia92WsAAAAJ" target="_blank" rel="noopener">Liangcai Gao</a><sup>#</sup></span><br>
   <span class="venue-tag"><img src="/images/icon-neurips.svg" class="venue-logo" alt="NeurIPS"><strong>NeurIPS 2025 (CCF-A, Spotlight)</strong></span>
   <div class="paper-badges">
+    {% include scholar-citation.html paper="uni_mumer" %}
     <a href="https://github.com/BFlameSwift/Uni-MuMER" target="_blank" rel="noopener"><img alt="GitHub Repo" src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github&logoColor=white"></a>
     <a href="https://github.com/BFlameSwift/Uni-MuMER/stargazers" target="_blank" rel="noopener"><img alt="GitHub stars" src="https://img.shields.io/github/stars/BFlameSwift/Uni-MuMER?style=social"></a>
     <a href="https://huggingface.co/collections/phxember/uni-mumer" target="_blank" rel="noopener"><img alt="Hugging Face Collection" src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Collection-FFD21E"></a>
@@ -122,6 +123,9 @@ I am currently a Research Intern at Microsoft Research Asia (GenAI Group), worki
   <span class="paper-title-link">Uni-DocRobust: Universal Plug-and-Play Robustness Enhancement for Multi-modal LLMs via Feature Restoration</span><br>
   <span>Yuxuan Zhou, Baole Wei, Xingjian Hu, Haowei Chen, <strong>Yu Li</strong>, Xingyue Lin, <a href="https://scholar.google.com/citations?user=6Ia92WsAAAAJ" target="_blank" rel="noopener">Liangcai Gao</a>, Zhi Tang</span><br>
   <span class="venue-tag"><img src="/images/icon-icml.svg" class="venue-logo logo-icml" alt="ICML"><strong>ICML 2026 (CCF-A)</strong></span>
+  <div class="paper-badges">
+    {% include scholar-citation.html paper="uni_docrobust" %}
+  </div>
 </div>
 
 <div class="paper-entry">
@@ -129,6 +133,7 @@ I am currently a Research Intern at Microsoft Research Asia (GenAI Group), worki
   <span><a href="https://qingzhenduyu.github.io/" target="_blank" rel="noopener">Jianhua Zhu</a>, Wenqi Zhao, <strong>Yu Li</strong>, Xingjian Hu, <a href="https://scholar.google.com/citations?user=6Ia92WsAAAAJ" target="_blank" rel="noopener">Liangcai Gao</a><sup>#</sup></span><br>
   <span class="venue-tag"><img src="/images/icon-aaai.svg" class="venue-logo" alt="AAAI"><strong>AAAI 2025 (CCF-A)</strong></span>
   <div class="paper-badges">
+    {% include scholar-citation.html paper="tamer" %}
     <a href="https://github.com/qingzhenduyu/TAMER" target="_blank" rel="noopener"><img alt="GitHub Repo" src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github&logoColor=white"></a>
     <a href="https://github.com/qingzhenduyu/TAMER/stargazers" target="_blank" rel="noopener"><img alt="GitHub stars" src="https://img.shields.io/github/stars/qingzhenduyu/TAMER?style=social"></a>
   </div>

@@ -1,0 +1,16 @@
+# Verified against the public Google Scholar profile; these are dated snapshots.
+checked_on: "2026-10-16"
+profile: "https://scholar.google.com/citations?user=dxkSAiwAAAAJ&hl=en"
+papers:
+  uni_mumer:
+    count: 20
+    url: "https://scholar.google.com/scholar?cites=12883448328760563712&hl=en"
+    citation_id: "dxkSAiwAAAAJ:d1gkVwhDpl0C"
+  uni_docrobust:
+    count: 1
+    url: "https://scholar.google.com/scholar?cites=5610418177369708880&hl=en"
+    citation_id: "dxkSAiwAAAAJ:qjMakFHDy7sC"
+  tamer:
+    count: 42
+    url: "https://scholar.google.com/scholar?cites=16049250649077447821&hl=en"
+    citation_id: "dxkSAiwAAAAJ:u-x6o8ySG0sC"

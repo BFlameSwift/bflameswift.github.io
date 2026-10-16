@@ -153,6 +153,10 @@ The JD deployment publishes `/stats/daily.json` from a dedicated Nginx date-only
 
 Source configs live under `scripts/daily-stats/` and are excluded from generated public files. `nginx-http.conf` belongs in the Nginx HTTP context; `nginx-server.conf` contains the corresponding HTTPS-server logging and JSON route. Rollback configuration is under `/var/www/me.bflame.top/backups/20261012-daily/`; disable the scoped timer and restore the previous dedicated vhost if retiring this feature. Ordinary pre-existing server access logging remains unchanged.
 
+## Google Scholar citation badges
+
+Per-paper badges link to the verified Google Scholar citing-article cluster. Counts and the check date live in `_data/scholar_citations.yml`; the date appears in each badge's hover title. These are manually verified snapshots, not live counts. Refresh the profile, confirm the paper titles/cluster IDs and update this data file when updating counts. Badges use local HTML/CSS so external badge/image services are not needed to render them.
+
 ## Acknowledgement
 
 This project is based on [Academic Pages](https://academicpages.github.io/), with extensive customization for Yu Li's personal academic homepage.
